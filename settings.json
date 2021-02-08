@@ -1,0 +1,100 @@
+{
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "newOperator": "#eb886a",
+            "macro": "#8b8b8b",
+            "enumMember": "#ffffff",
+            "type": "#ebc8ff"
+        }
+    },
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "editor.renderIndentGuides": false,
+    "editor.tokenColorCustomizations": {
+        "functions": "#86c9f5",
+        "comments": {
+            "foreground": "#585858",
+            "fontStyle": "italic"
+        },
+        "keywords": "#eb886a",
+        "strings": "#ffe25f",
+        "numbers": "#ffffff",
+        "variables": "#ffffff",
+        "types": "#ffffff",
+        "textMateRules": [
+            {
+                "scope": [
+                    "storage.modifier",
+                    "keyword.operator.delete.cpp",
+                    "keyword.operator.cast",
+                    "keyword.other.using.directive.cpp",
+                    "keyword.other.using.cpp",
+                    "constant.language",
+                ],
+                "settings": {
+                    "foreground": "#eb886a"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.namespace",
+                    "entity.name.scope-resolution",
+                    "entity.name.function.destructor.cpp",
+                ],
+                "settings": {
+                    "foreground": "#85c292"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.preprocessor.cpp",
+                    "keyword.control.directive",
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "foreground": "#8b8b8b",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.language.this.cpp",
+                "settings": {
+                    "foreground": "#4affb4",
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#ffffff",
+        "editor.findMatchBackground": "#7923233b",
+        "editor.findMatchBorder": "#fcff32",
+        "editor.findMatchHighlightBackground": "#8a897973",
+        "editor.selectionBackground": "#6d84a7",
+        "editor.selectionHighlightBackground": "#4a5970",
+        "editor.background": "#1c1d1f",
+        "editorGutter.background": "#1c1d1f",
+        "sideBar.background": "#222222",
+        "sideBar.border": "#353535",
+        "terminal.background": "#222222",
+        "statusBar.background": "#353535",
+        "panel.background": "#353535",
+        "editor.lineHighlightBackground": "#353535"
+        // "diffEditor.removedTextBackground": "#cc372d5b"
+    },
+    "editor.fontSize": 13,
+    "editor.fontFamily": "SF Mono",
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "zenMode.hideLineNumbers": false,
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false,
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "extensions.autoUpdate": false,
+    "terminal.integrated.rendererType": "dom",
+    "gitlens.codeLens.enabled": false,
+    "cmake.skipConfigureIfCachePresent": true
+}
